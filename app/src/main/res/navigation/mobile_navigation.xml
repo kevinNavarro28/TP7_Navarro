@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Ubicacion">
+
+    <fragment
+        android:id="@+id/nav_Ubicacion"
+        android:name="com.example.tp7_navarro.ui.Ubicacion.UbicacionFragment"
+        android:label="Ubicacion"
+        tools:layout="@layout/fragment_ubicacion" />
+
+    <fragment
+        android:id="@+id/nav_MiMusica"
+        android:name="com.example.tp7_navarro.ui.MiMusica.MiMusicaFragment"
+        android:label="MiMusica"
+        tools:layout="@layout/fragment_mimusica" />
+
+    <fragment
+        android:id="@+id/nav_Salir"
+        android:name="com.example.tp7_navarro.ui.Salir.SalirFragment"
+        android:label="Salir"
+        tools:layout="@layout/fragment_salir" />
+</navigation>
